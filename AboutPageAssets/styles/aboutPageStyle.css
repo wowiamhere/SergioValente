@@ -54,10 +54,11 @@ header .profilePhoto img{
 
 header .profileHeader h1 {
 	font-family: 'Montserrat', sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: rgba(255,215,0,1.00);
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 24px;
+	text-align: center;
 }
 
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -81,8 +82,8 @@ header .profileHeader h3 {
 	line-height: 24px;
 }
 hr {
-	background-color: rgba(208,207,207,1.00);
-	height: 1px;
+	background-color: rgba(255,215,0,1.00);
+	height: 2px;
 }
 header .profileHeader p {
 	font-family: sans-serif;
@@ -92,6 +93,8 @@ header .profileHeader p {
 	line-height: 1.8;
 	overflow-y: auto;
 }
+/*----------------------CUSTOM FOR WEBSITE -------------------------*/
+
 header .socialNetworkNavBar {
 	text-align: center;
 	display: block;
@@ -295,6 +298,7 @@ footer {
 	text-align: center;
 	font-family: sans-serif;
 }
+
 }
 @media only screen and (min-width : 481px) and (max-width : 680px) {
     
@@ -380,6 +384,7 @@ footer {
 	text-align: center;
 	font-family: sans-serif;
 }
+
 }
 /* Media Query for Tablets */
 @media only screen and (min-width : 681px) and (max-width : 881px) {
@@ -470,6 +475,7 @@ footer .footerNote {
 	margin-right: 3%;
 	font-family: sans-serif;
 }
+
 }
 
 /* Desktops and laptops  */
@@ -546,4 +552,5 @@ footer .footerNote {
 	margin-right: 3%;
 	font-family: sans-serif;
 }
+
 }
