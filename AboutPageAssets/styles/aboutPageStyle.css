@@ -2,20 +2,17 @@
 /* Global Styles */
 
 body {
-	margin-left: auto;
-	margin-right: auto;
-	width: 92%;
-	max-width: 960px;
+	/* [disabled]margin-left: auto; */
+	/* [disabled]margin-right: auto; */
 	padding-left: 2.275%;
 	padding-right: 2.275%;
-    
-/* ---------CUSTOM FOR WEBSITE----------- */
-    background-color: black;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/logo_cropped.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-blend-mode: hard-light;
+	/* ---------CUSTOM FOR WEBSITE----------- */
+	background-color: black;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/logo_cropped.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-blend-mode: hard-light;
 /* ---------CUSTOM FOR WEBSITE----------- */
 }
 /* Header */
@@ -69,6 +66,7 @@ header .profileHeader h1 {
 	font-weight: 700;
 	line-height: 24px;
 	text-align: center;
+	display: block;
 }
 
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -79,9 +77,9 @@ header .headerTitle{
 	display: block;
 }
 header .headerTitle h1 {
-	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	font-size: 100px;
-    color:#BF9236;
+	color: #BF9236;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
@@ -108,9 +106,8 @@ header .profileHeader p {
 
 header .socialNetworkNavBar {
 	width: 40%;
-	/* [disabled]float: right; */
-	margin-right: 2%;
 	display: inline-block;
+	clear: both;
 }
 header .socialNetworkNavBar .socialNetworkNav {
 	border-radius: 50%;
@@ -123,20 +120,24 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 .mainContent .section1 {
 	display: block;
 }
+
 .section1 .sectionTitle, .section2 .sectionTitle {
-	font-family: 'Montserrat', sans-serif;
-	color: rgba(146,146,146,1.00);
-	font-size: 18px;
-	font-weight: 700;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: rgba(255,215,0,1.00);
+	font-weight: 900;
 	text-transform: uppercase;
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
-	margin: 0 3% 0 0;
+	margin-top: 0;
+	margin-right: 3%;
+	margin-left: 0;
+	margin-bottom: 0;
 	float: left;
 	clear: both;
+	color: rgba(255,215,0,1);
 }
 .section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
-	background-color: rgba(208,207,207,1.00);
+	background-color: rgba(255,215,0,1);
 	height: 1px;
 	padding: 0px;
 }
@@ -145,7 +146,13 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-size: 14px;
 	font-weight: 100;
 	color: rgba(208,207,207,1.00);
+	margin-left: 10%;
 }
+.mainContent .section1 .section1Content h3, h4, p  {
+	margin-left: 10%;
+
+}
+
 .mainContent .section1 .section1Content span {
 	color: rgba(146,146,146,1.00);
 	font-family: sans-serif;
@@ -170,8 +177,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	line-height: 1.8;
 }
 .mainContent {
-	/* [disabled]display: block; */
-	float: left;
+	display: inline-block;
 	clear: both;
 }
 .mainContent .externalResourcesNav .externalResources {
@@ -281,7 +287,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 	width: 60px;
 	height: 60px;
 	display: inline-block;
-	margin-right: 23px;
 }
 /* Main content sections */
 .mainContent .section1 {
@@ -298,10 +303,11 @@ header .socialNetworkNavBar .socialNetworkNav {
 	display: none;
 }
 .mainContent .section1 .section1Content {
-	display: inline-block;
+	display: block;
 	text-align: left;
 	font-family: sans-serif;
 	text-align: justify;
+	margin-left: 2%;
 }
 .mainContent .section2 {
 	display: block;
@@ -348,8 +354,6 @@ header .socialNetworkNavBar {
 	display: block;
 	width: 100%;
 	position: relative;
-	clear: right;
-	margin-right: 0;
 
 }
 
@@ -407,10 +411,12 @@ header .socialNetworkNavBar .socialNetworkNav {
 	display: none;
 }
 .mainContent .section1 .section1Content {
-	display: inline-block;
-	text-align: left;
+	display: block;
+	/* [disabled]text-align: left; */
 	font-family: sans-serif;
 	text-align: justify;
+	margin-left: 2%;
+	margin-top: 7%;
 }
 .mainContent .section2 {
 	display: block;
@@ -487,8 +493,7 @@ header .profileHeader {
 header .socialNetworkNavBar .socialNetworkNav {
 	width: 74px;
 	height: 74px;
-	display: inline-block;
-	margin-right: 23px;
+	display: inline;
 }
 /* Main content and sections */
 .section1 .section1Title, .section2 .section1Title {
@@ -502,7 +507,10 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .mainContent .section1 .section1Content {
 	display: block;
-	margin: 0% 0% 0% 20%;
+	margin-top: 5%;
+	margin-right: 0%;
+	margin-left: 5%;
+	margin-bottom: 5%;
 	font-family: sans-serif;
 	margin-top: 5%;
 	margin-bottom: 5%;
@@ -573,10 +581,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .mainContent .section1 .section1Content {
 	display: block;
-	margin-top: 0%;
-	margin-right: 0%;
-	margin-left: 26%;
-	margin-bottom: 0%;
 	font-family: sans-serif;
 }
 .mainContent .section2 {
@@ -610,4 +614,9 @@ footer .footerNote {
 	font-family: sans-serif;
 }
 
+}
+.cDirector {
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
 }
