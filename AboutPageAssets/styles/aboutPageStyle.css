@@ -148,9 +148,12 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	color: rgba(208,207,207,1.00);
 	margin-left: 10%;
 }
-.mainContent .section1 .section1Content h3, h4, p  {
-	margin-left: 10%;
+.section1 .section1Content .sectionContentTitle {
+	color: orange;
 
+}
+.mainContent .section1 .section1Content h3 , h4  ,p{
+	margin-left: 10%;
 }
 
 .mainContent .section1 .section1Content span {
@@ -212,6 +215,9 @@ footer .footerDisclaimer {
 	line-height: 18px;
 	color: rgba(104,103,103,1.00);
 	font-weight: 700;
+	text-align: left;
+	width: 90px;
+	float: left;
 }
 footer .footerDisclaimer span {
 	color: rgba(181,178,178,1.00);
@@ -223,6 +229,9 @@ footer .footerNote {
 	line-height: 18px;
 	color: rgba(104,103,103,1.00);
 	font-weight: 700;
+	width: 115px;
+	text-align: right;
+	float: right;
 }
 footer .footerNote span {
 	color: rgba(181,178,178,1.00);
@@ -456,6 +465,18 @@ header .profilePhoto {
 
 
 }
+.cHFooter {
+	display: block;
+	width: 100%;
+}
+/* Footer */
+footer .footerDisclaimer {
+
+
+
+}
+
+
 
 /* -----------CUSTOM FOR WEBSITE--------*/
 
@@ -540,8 +561,8 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 /* Footer */
 footer .footerDisclaimer {
-	float: left;
-	margin-left: 3%;
+	/* [disabled]float: left; */
+	margin-left: 0.1%;
 	font-family: sans-serif;
 }
 footer .footerNote {
@@ -604,13 +625,9 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 /* Footer */
 footer .footerDisclaimer {
-	float: left;
-	margin-left: 3%;
 	font-family: sans-serif;
 }
 footer .footerNote {
-	float: right;
-	margin-right: 3%;
 	font-family: sans-serif;
 }
 
@@ -619,4 +636,14 @@ footer .footerNote {
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
+}
+.cFooter {
+	width: 100%;
+	float: left;
+	clear: both;
+}
+.cHFooter {
+	display: block;
+	width: 100%;
+	height: 2px;
 }
