@@ -1,0 +1,19 @@
+
+{
+  "name": "Sergio-Valente-Website",
+  "version": "1.0.0",
+  "description": "Sergio Valente Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wowiamhere/SergioValente.git"
+  },
+  "author": "Sergio Valente",
+  "homepage": "https://github.com/wowiamhere/SergioValente#README",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
