@@ -5,7 +5,7 @@
   "description": "Sergio Valente Website",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
