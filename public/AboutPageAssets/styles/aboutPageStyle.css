@@ -1,4 +1,24 @@
 @charset "utf-8";
+@import url("../..//stylesheet.css");
+@import url("../..//stylesheet.css");
+@import url("../..//stylesheet.css");
+@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
+@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
+@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
+@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
+@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
+@import url("../../webfonts/Deutsch/stylesheet.css");
+@import url("../../webfonts/Kingthings_Exeter/stylesheet.css");
+
+
+
+
+
+
+
+
+
+
 /* Global Styles */
 
 body {
@@ -77,9 +97,10 @@ header .headerTitle{
 	display: block;
 }
 header .headerTitle h1 {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	font-size: 100px;
-	color: #BF9236;
+	font-family: "Kingthings Exeter";
+	color: rgba(255,215,0,1);
+	letter-spacing: 0.5rem;
+	font-size: small;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
@@ -152,7 +173,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	color: orange;
 
 }
-.mainContent .section1 .section1Content h3 , h4  ,p{
+.mainContent .section1 .section1Content p, h3, h4{
 	margin-left: 10%;
 }
 
