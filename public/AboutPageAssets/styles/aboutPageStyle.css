@@ -22,6 +22,7 @@
 /* Global Styles */
 
 body {
+	font-family: "Kingthings Exeter";
 	/* [disabled]margin-left: auto; */
 	/* [disabled]margin-right: auto; */
 	padding-left: 2.275%;
@@ -29,8 +30,6 @@ body {
 	/* ---------CUSTOM FOR WEBSITE----------- */
 	background-color: black;
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/logo_cropped.png");
-	background-repeat: no-repeat;
-	background-position: center;
 	background-size: contain;
 	background-blend-mode: hard-light;
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -42,8 +41,9 @@ header {
 }
 /* -----------CUSTOM FOR WEBSITE--------*/
 header .profileHeader {
-	width: 65%;
+	width: 55vw;
 	float: right;
+	line-height: 1vh;
 }
 /* -----------CUSTOM FOR WEBSITE--------*/
 header .profileLogo .logoPlaceholder {
@@ -54,58 +54,53 @@ header .profileLogo .logoPlaceholder {
 header .logoPlaceholder span {
 	width: 80px;
 	height: 22px;
-	font-family: 'Montserrat', sans-serif;
 	color: rgba(255,255,255,1.00);
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 53px;
 }
 header .profilePhoto {
-	background-color: black; /*rgba(237,237,237,1.00);*/
 	width: 259px;
-	border-radius: 50%;
 	height: 259px;
-	clear: both;
 	float: left;
-	width: 30%;
+	width: auto;
 	height: auto;
 }
 
 /* ---------CUSTOM FOR WEBSITE----------- */
 header .profilePhoto img{
-	width: 100%;
-	border-radius: 15%;
-	height: inherit;
+	width: 34vw;
+	height: auto;
+	display: block;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
-header .profileHeader h1 {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+header .profileHeader h2 {
 	color: rgba(255,215,0,1.00);
-	font-size: 30px;
+	font-size: 5vh;
 	font-weight: 700;
-	line-height: 24px;
+	line-height: 0vh;
 	text-align: center;
-	display: block;
 }
 
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 /*-------added .headerTitle class to DOM -------*/
 header .headerTitle{
-	width: 100%;
-	display: block;
+	width: 55vw;
+	margin: 3vh 0 7vh;
+	float: right;
 }
 header .headerTitle h1 {
-	font-family: "Kingthings Exeter";
 	color: rgba(255,215,0,1);
-	letter-spacing: 0.5rem;
-	font-size: small;
+	font-size: 10vw;
+	letter-spacing: 7px;
+	font-weight: 700;
+	display: inline;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 header .profileHeader h3 {
-	font-family: sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 16px;
 	font-weight: 700;
@@ -113,10 +108,9 @@ header .profileHeader h3 {
 }
 hr {
 	background-color: rgba(255,215,0,1.00);
-	height: 2px;
+	height: 0.3vh;
 }
 header .profileHeader p {
-	font-family: sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 14px;
 	font-weight: 400;
@@ -143,7 +137,6 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 
 .section1 .sectionTitle, .section2 .sectionTitle {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	color: rgba(255,215,0,1.00);
 	font-weight: 900;
 	text-transform: uppercase;
@@ -163,7 +156,6 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	padding: 0px;
 }
 .mainContent .section1 .section1Content {
-	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 100;
 	color: rgba(208,207,207,1.00);
@@ -179,22 +171,18 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 
 .mainContent .section1 .section1Content span {
 	color: rgba(146,146,146,1.00);
-	font-family: sans-serif;
 }
 .section2 .sectionContentTitle {
-	font-family: sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 18px;
 	font-weight: 700;
 }
 .section2 .sectionContentSubTitle {
-	font-family: sans-serif;
 	color: rgba(68,67,67,1.00);
 	font-size: 14px;
 	font-weight: 400;
 }
 .section2 .sectionContent {
-	font-family: sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 14px;
 	font-weight: 400;
@@ -216,7 +204,6 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	background-color: rgba(153,153,153,1.00);
 }
 .externalResourcesNav .externalResources a {
-	font-family: 'Montserrat', sans-serif;
 	color: rgba(255,255,255,1.00);
 	font-size: 14px;
 	font-weight: 400;
@@ -231,7 +218,6 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 /* Footer */
 footer .footerDisclaimer {
-	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	color: rgba(104,103,103,1.00);
@@ -245,7 +231,6 @@ footer .footerDisclaimer span {
 	font-weight: 400;
 }
 footer .footerNote {
-	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	color: rgba(104,103,103,1.00);
@@ -266,12 +251,9 @@ body header {
 }
 .headerContactInfo {
 	float: right;
-	clear: right;
-	width: 65%;
+	width: 55vw;
 	color: rgba(255,215,0,1);
-	font-weight: bold;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	margin-right: 2%;
+	line-height: 0.8vh;
 
 
 }
@@ -335,7 +317,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 .mainContent .section1 .section1Content {
 	display: block;
 	text-align: left;
-	font-family: sans-serif;
 	text-align: justify;
 	margin-left: 2%;
 }
@@ -359,7 +340,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 footer {
 	display: block;
 	text-align: center;
-	font-family: sans-serif;
 }
 header .profilePhoto {
 	display: block;
@@ -375,7 +355,6 @@ header .profileHeader {
 	width: 100%;
 	color: rgba(255,215,0,1);
 	font-weight: bold;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	font-size: 90%;
 	margin-right: 0;
 
@@ -443,7 +422,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 .mainContent .section1 .section1Content {
 	display: block;
 	/* [disabled]text-align: left; */
-	font-family: sans-serif;
 	text-align: justify;
 	margin-left: 2%;
 	margin-top: 7%;
@@ -468,7 +446,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 footer {
 	display: block;
 	text-align: center;
-	font-family: sans-serif;
 }
 
 header .profilePhoto {
@@ -508,11 +485,11 @@ footer .footerDisclaimer {
     
 /* ---------CUSTOM FOR WEBSITE----------- */
 body{
-    background-repeat:space;
-    background-position:top;
+	background-repeat: space;
+	background-position: top;
 }
 header .headerTitle h1 {
-	font-size:90px;
+
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
     
@@ -523,11 +500,9 @@ header {
 }
 header .profileLogo .logoPlaceholder {
 	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
 }
 header .profilePhoto {
-	float: left;
-	clear: both;
+
 }
 header .profileHeader {
 
@@ -553,7 +528,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 	margin-right: 0%;
 	margin-left: 5%;
 	margin-bottom: 5%;
-	font-family: sans-serif;
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
@@ -563,7 +537,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 .section2 .section2Content {
 	padding: 0px;
 	margin-left: 20%;
-	font-family: sans-serif;
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
@@ -584,26 +557,24 @@ header .socialNetworkNavBar .socialNetworkNav {
 footer .footerDisclaimer {
 	/* [disabled]float: left; */
 	margin-left: 0.1%;
-	font-family: sans-serif;
 }
 footer .footerNote {
 	float: right;
 	margin-right: 3%;
-	font-family: sans-serif;
 }
 
 }
 
 /* Desktops and laptops  */
-@media only screen and (min-width:882px) {
+@media only screen and (min-width : 882px) and (max-width : 1400px) {
         
 /* ---------CUSTOM FOR WEBSITE----------- */
 body{
-    background-repeat:space;
-    background-position:top;
+	background-repeat: space;
+	background-position: top;
 }
 header .headerTitle h1 {
-	font-size:100px;
+
  n}
 /* ---------CUSTOM FOR WEBSITE----------- */
 /* Header */
@@ -623,7 +594,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .mainContent .section1 .section1Content {
 	display: block;
-	font-family: sans-serif;
 }
 .mainContent .section2 {
 	clear: both;
@@ -631,7 +601,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 .section2 .section2Content {
 	padding: 0px;
 	margin-left: 26%;
-	font-family: sans-serif;
 }
 .mainContent .externalResourcesNav {
 	margin-top: 40px;
@@ -646,10 +615,8 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 /* Footer */
 footer .footerDisclaimer {
-	font-family: sans-serif;
 }
 footer .footerNote {
-	font-family: sans-serif;
 }
 
 }
@@ -657,6 +624,7 @@ footer .footerNote {
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
+	font-size: 1.5vw;
 }
 .cFooter {
 	width: 100%;
@@ -667,4 +635,16 @@ footer .footerNote {
 	display: block;
 	width: 100%;
 	height: 2px;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 1.6vw;
+}
+.cEanchor {
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+}
+.cHAddress {
+	font-size: 1.1vw;
 }
