@@ -40,18 +40,18 @@ header {
 	display: block;
 }
 /* -----------CUSTOM FOR WEBSITE--------*/
-header .profileHeader {
+.profileHeader {
 	width: 55vw;
 	float: right;
 	line-height: 1vh;
 }
 /* -----------CUSTOM FOR WEBSITE--------*/
-header .profileLogo .logoPlaceholder {
+.logoPlaceholder {
 	background-color: rgba(208,207,207,1.00);
 	width: 187px;
 	text-align: center;
 }
-header .logoPlaceholder span {
+.logoPlaceholder span {
 	width: 80px;
 	height: 22px;
 	color: rgba(255,255,255,1.00);
@@ -59,7 +59,7 @@ header .logoPlaceholder span {
 	font-weight: 700;
 	line-height: 53px;
 }
-header .profilePhoto {
+.profilePhoto {
 	width: 259px;
 	height: 259px;
 	float: left;
@@ -75,9 +75,9 @@ header .profilePhoto img{
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
-header .profileHeader h2 {
+.profileHeaderTitle {
 	color: rgba(255,215,0,1.00);
-	font-size: 5vh;
+	font-size: 6vh;
 	font-weight: 700;
 	line-height: 0vh;
 	text-align: center;
@@ -86,12 +86,12 @@ header .profileHeader h2 {
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 /*-------added .headerTitle class to DOM -------*/
-header .headerTitle{
+.headerTitle{
 	width: 55vw;
 	margin: 3vh 0 7vh;
 	float: right;
 }
-header .headerTitle h1 {
+.headerTitle h1 {
 	color: rgba(255,215,0,1);
 	font-size: 10vw;
 	letter-spacing: 7px;
@@ -100,7 +100,7 @@ header .headerTitle h1 {
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
-header .profileHeader h3 {
+.profileHeader h3 {
 	color: rgba(146,146,146,1.00);
 	font-size: 16px;
 	font-weight: 700;
@@ -110,7 +110,7 @@ hr {
 	background-color: rgba(255,215,0,1.00);
 	height: 0.3vh;
 }
-header .profileHeader p {
+.profileHeader p {
 	color: rgba(146,146,146,1.00);
 	font-size: 14px;
 	font-weight: 400;
@@ -140,6 +140,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	color: rgba(255,215,0,1.00);
 	font-weight: 900;
 	text-transform: uppercase;
+	font-size: 2.1vw;
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
 	margin-top: 0;
@@ -163,12 +164,17 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 .section1 .section1Content .sectionContentTitle {
 	color: orange;
+	font-size: 2.1vw;
 
 }
-.mainContent .section1 .section1Content p, h3, h4{
+.mainContent .section1 .section1Content .sectionContent{
 	margin-left: 10%;
+	font-size: 1.5vw;
 }
-
+.mainContent .section1 .section1Content .cRole{
+	margin-left: 10%;
+	font-size: 1.6vw;
+}
 .mainContent .section1 .section1Content span {
 	color: rgba(146,146,146,1.00);
 }
@@ -177,7 +183,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-size: 18px;
 	font-weight: 700;
 }
-.section2 .sectionContentSubTitle {
+.section2 .cRole {
 	color: rgba(68,67,67,1.00);
 	font-size: 14px;
 	font-weight: 400;
@@ -252,8 +258,6 @@ body header {
 .headerContactInfo {
 	float: right;
 	width: 55vw;
-	color: rgba(255,215,0,1);
-	line-height: 0.8vh;
 
 
 }
@@ -366,11 +370,9 @@ header .socialNetworkNavBar {
 
 }
 
-
-
-
-
 }
+
+
 @media only screen and (min-width : 481px) and (max-width : 680px) {
     
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -468,18 +470,32 @@ header .profilePhoto {
 	width: 100%;
 }
 /* Footer */
-footer .footerDisclaimer {
+.footerDisclaimer { }
+.profileHeader {
+
+
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	font-size: 2.2vw;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 3.5vw;
+}
+.cEanchor {
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
 
 
 
 }
 
 
-
-/* -----------CUSTOM FOR WEBSITE--------*/
-
-
-}
 /* Media Query for Tablets */
 @media only screen and (min-width : 681px) and (max-width : 881px) {
     
@@ -562,11 +578,27 @@ footer .footerNote {
 	float: right;
 	margin-right: 3%;
 }
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	font-size: 2.2vw;
+}
+.cEanchor {
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 3.5vw;
+}
+
+
+
 
 }
 
 /* Desktops and laptops  */
-@media only screen and (min-width : 882px) and (max-width : 1400px) {
+@media only screen and (min-width : 882px) and (max-width : 1082px) {
         
 /* ---------CUSTOM FOR WEBSITE----------- */
 body{
@@ -575,7 +607,7 @@ body{
 }
 header .headerTitle h1 {
 
- n}
+}
 /* ---------CUSTOM FOR WEBSITE----------- */
 /* Header */
 header .profileLogo .logoPlaceholder {
@@ -619,8 +651,193 @@ footer .footerDisclaimer {
 footer .footerNote {
 }
 
-}
 .cDirector {
+	margin-left: 2vw;
+	font-size: 1.3vw;
+	top: -3vh;
+	position: relative;
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	font-size: 2.2vw;
+}
+.cFooter {
+	width: 100%;
+	float: left;
+	clear: both;
+}
+.cHFooter {
+	display: block;
+	width: 100%;
+	height: 2px;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 3.5vw;
+}
+.cEanchor {
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+}
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width : 1083px) and (max-width : 1400px) {
+        
+/* ---------CUSTOM FOR WEBSITE----------- */
+body{
+	background-repeat: space;
+	background-position: top;
+}
+header .headerTitle h1 {
+
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+/* Header */
+header .profileLogo .logoPlaceholder {
+	float: left;
+	margin-bottom: 50px;
+}
+
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline;
+}
+/* Main content sections */
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 22.5%;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+}
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 26%;
+}
+.mainContent .externalResourcesNav {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+}
+/* Footer */
+footer .footerDisclaimer {
+}
+footer .footerNote {
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+
+
+.cDirector {
+	margin-left: 2vw;
+	font-size: 1.3vw;
+	top: -3vh;
+	position: relative;
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	font-size: 1.9vw;
+}
+.cFooter {
+	width: 100%;
+	float: left;
+	clear: both;
+}
+.cHFooter {
+	display: block;
+	width: 100%;
+	height: 2px;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 2.5vw;
+}
+.cEanchor {
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+}
+}
+
+@media only screen and (min-width : 1401px) { 
+
+        
+/* ---------CUSTOM FOR WEBSITE----------- */
+body{
+	background-repeat: space;
+	background-position: top;
+}
+header .headerTitle h1 {
+
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+/* Header */
+header .profileLogo .logoPlaceholder {
+	float: left;
+	margin-bottom: 50px;
+}
+
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline;
+}
+/* Main content sections */
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 22.5%;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+}
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 26%;
+}
+.mainContent .externalResourcesNav {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+}
+/* Footer */
+footer .footerDisclaimer {
+}
+footer .footerNote {
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 2.1vw;
+}
+
+
+
+.cDirector {
+	margin-left: 2vw;
+	font-size: 1.3vw;
+	top: -3vh;
+	position: relative;
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
@@ -638,13 +855,12 @@ footer .footerNote {
 }
 .cHEmail {
 	font-weight: bold;
-	font-size: 1.6vw;
+	font-size: 2.1vw;
 }
 .cEanchor {
 	color: orange;
 	text-decoration: none;
 	font-style: italic;
 }
-.cHAddress {
-	font-size: 1.1vw;
-}
+
+ }
