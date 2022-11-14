@@ -77,9 +77,8 @@ header .profilePhoto img{
 
 .profileHeaderTitle {
 	color: rgba(255,215,0,1.00);
-	font-size: 6vh;
+	font-size: 6vw;
 	font-weight: 700;
-	line-height: 0vh;
 	text-align: center;
 }
 
@@ -271,117 +270,7 @@ body{
     background-position:top;
 }
 header .headerTitle h1 {
-	font-size:60px;
-}
-/* ---------CUSTOM FOR WEBSITE----------- */
-    
-header {
-	width: 100%;
-	float: none;
-}
-header .profileLogo .logoPlaceholder {
-	display: inline-block;
-}
-header .profilePhoto {
-
-}
-header .profileHeader {
-	text-align: center;
-	margin-top: 10%;
-}
-header .profileHeader p {
-	text-align: justify;
-}
-header .socialNetworkNavBar {
-	text-align: center;
-	display: block;
-	margin-top: 60px;
-	clear: both;
-	margin-bottom: 15%;
-}
-header .socialNetworkNavBar .socialNetworkNav {
-	width: 60px;
-	height: 60px;
-	display: inline-block;
-}
-/* Main content sections */
-.mainContent .section1 {
-	text-align: center;
-	margin-bottom: 10%;
-}
-.section1 .section1Title, .section2 .section1Title {
-	text-align: center;
-}
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
-	width: 100%;
-}
-.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
-	display: none;
-}
-.mainContent .section1 .section1Content {
-	display: block;
-	text-align: left;
-	text-align: justify;
-	margin-left: 2%;
-}
-.mainContent .section2 {
-	display: block;
-	text-align: center;
-}
-.section2 .section2Content {
-	margin-top: 10%;
-	text-align: justify;
-	margin-bottom: 10%;
-}
-.mainContent .externalResourcesNav {
-	margin-bottom: 10%;
-}
-.mainContent .externalResourcesNav .externalResources {
-	width: 100%;
-	height: 35px;
-}
-/* Footer */
-footer {
-	display: block;
-	text-align: center;
-}
-header .profilePhoto {
-	display: block;
-	position: relative;
-	width: 100%;
-}
-header .profileHeader {
-	display: block;
-	width: 100%;
-
-}
-.headerContactInfo {
-	width: 100%;
-	color: rgba(255,215,0,1);
-	font-weight: bold;
-	font-size: 90%;
-	margin-right: 0;
-
-}
-header .socialNetworkNavBar {
-	display: block;
-	width: 100%;
-	position: relative;
-
-}
-
-}
-
-
-@media only screen and (min-width : 481px) and (max-width : 680px) {
-    
-/* ---------CUSTOM FOR WEBSITE----------- */
-body{
-    background-repeat:space;
-    background-position:top;
-}
-header .headerTitle h1 {
-	font-size:70px;
+	font-size: 20vw;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
     
@@ -417,6 +306,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
 	width: 100%;
+	margin-bottom: 2vh;
 }
 .section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
 	display: none;
@@ -428,6 +318,13 @@ header .socialNetworkNavBar .socialNetworkNav {
 	margin-left: 2%;
 	margin-top: 7%;
 }
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-left: 5vw;
+	margin-top: -2.5vh;
+	font-size: 4.3vw;
+}
+
 .mainContent .section2 {
 	display: block;
 	text-align: center;
@@ -452,15 +349,14 @@ footer {
 
 header .profilePhoto {
 	background-color: black; /*rgba(237,237,237,1.00);*/
-	width: 259px;
-	border-radius: 50%;
-	/* [disabled]height: 259px; */
-	clear: both;
-	float: left;
-	width: 30%;
-	/* [disabled]height: auto; */
+	/* [disabled]width: 259px; */
+	width: 100%;
+	display: block;
+	clear: boht;
 }
 .headerContactInfo {
+	display: block;
+	width: 100%;
 
 
 
@@ -472,26 +368,239 @@ header .profilePhoto {
 /* Footer */
 .footerDisclaimer { }
 .profileHeader {
+	float: none;
+	display: block;
+	width: 100%;
+	clear: both;
 
 
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
-	font-size: 2.2vw;
+	display: block;
+	margin-top: -2vh;
 }
 .cHEmail {
 	font-weight: bold;
-	font-size: 3.5vw;
+	font-size: 4.99vw;
 }
 .cEanchor {
 	color: orange;
 	text-decoration: none;
 	font-style: italic;
 }
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+/*-------added .headerTitle class to DOM -------*/
+.headerTitle {
+	width: 100%;
+	margin: 0;
+	display: block;
+	clear: both;
+}
+body header {
+	width: 100%;
+	display: block;
+
+
+}
+.mainContent {
+	display: block;
+	width: auto;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 12vw;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 6vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 7vw;
+
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 4.6vw;
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 5vw;
+	margin-left: 10%;
+}
+
+}
+
+
+@media only screen and (min-width : 481px) and (max-width : 680px) {
+   
+/* ---------CUSTOM FOR WEBSITE----------- */
+body{
+    background-repeat:space;
+    background-position:top;
+}
+header .headerTitle h1 {
+	font-size: 20vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+    
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto img{
+	width: 100%;
+
+}
+header .profileHeader p {
+	text-align: justify;
+}
+header .socialNetworkNavBar {
+
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 60px;
+	height: 60px;
+	display: inline;
+}
+/* Main content sections */
+.mainContent .section1 {
+	text-align: center;
+	margin-bottom: 10%;
+}
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+	margin-bottom: 2vh;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	/* [disabled]text-align: left; */
+	text-align: justify;
+	margin-left: 2%;
+	margin-top: 7%;
+}
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-left: 5vw;
+	margin-top: -4vw;
+	font-size: 3.4vw;
+}
+
+.mainContent .section2 {
+	display: block;
+	text-align: center;
+}
+.section2 .section2Content {
+	margin-top: 10%;
+	text-align: justify;
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav {
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 100%;
+	height: 35px;
+}
+/* Footer */
+footer {
+	display: block;
+	text-align: center;
+}
+
+header .profilePhoto {
+	background-color: black; /*rgba(237,237,237,1.00);*/
+	/* [disabled]width: 259px; */
+	width: 100%;
+	display: block;
+	clear: boht;
+}
+.headerContactInfo {
+	display: block;
+	width: 100%;
 
 
 
+}
+.cHFooter {
+	display: block;
+	width: 100%;
+}
+/* Footer */
+.footerDisclaimer { }
+.profileHeader {
+	float: none;
+	display: block;
+	width: 100%;
+	clear: both;
 
+
+}
+.cSmallPrint {
+	color: rgba(255,215,0,1);
+	display: block;
+	margin-top: -2vh;
+	font-size: 2.8vw;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 4.99vw;
+}
+.cEanchor {
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+/*-------added .headerTitle class to DOM -------*/
+.headerTitle {
+	width: 100%;
+	margin: 0;
+	display: block;
+	clear: both;
+}
+body header {
+	width: 100%;
+	display: block;
+
+
+}
+.mainContent {
+	display: block;
+	width: auto;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 8.5vw;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 4.8vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 5.3vw;
+
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 3vw;
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 3.05vw;
+	margin-left: 10%;
+}
 
 }
 
@@ -547,6 +656,13 @@ header .socialNetworkNavBar .socialNetworkNav {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-top: -4vw;
+	margin-left: 4vw;
+	font-size: 2.7vw;
+}
+
 .mainContent .section2 {
 	clear: both;
 }
@@ -581,60 +697,114 @@ footer .footerNote {
 .cSmallPrint {
 	color: rgba(255,215,0,1);
 	font-size: 2.2vw;
+	display: block;
+	margin-top: -2vh;
 }
 .cEanchor {
 	color: orange;
 	text-decoration: none;
 	font-style: italic;
+	font-size: 3.05vw;
 }
 .cHEmail {
 	font-weight: bold;
 	font-size: 3.5vw;
 }
+/* ---------CUSTOM FOR WEBSITE----------- */
 
+.profileHeaderTitle {
+	font-size: 5.4vw;
+}
+.mainContent {
+	display: block;
+	clear: both;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-size: 3.4vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 4.2vw;
 
-
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 2.5vw;
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 2.6vw;
+}
 
 }
 
 /* Desktops and laptops  */
 @media only screen and (min-width : 882px) and (max-width : 1082px) {
-        
+     
 /* ---------CUSTOM FOR WEBSITE----------- */
 body{
 	background-repeat: space;
 	background-position: top;
 }
 header .headerTitle h1 {
+	font-size: 12vw;
 
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
+    
 /* Header */
-header .profileLogo .logoPlaceholder {
-	float: left;
-	margin-bottom: 50px;
+header {
+	width: 100%;
+	float: none;
 }
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
 
+}
+header .profileHeader {
+
+}
 header .socialNetworkNavBar .socialNetworkNav {
 	width: 74px;
 	height: 74px;
 	display: inline;
 }
-/* Main content sections */
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
-	width: 22.5%;
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
 }
 .mainContent .section1 .section1Content {
 	display: block;
+	margin-top: 5%;
+	margin-right: 0%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-top: -4vw;
+	margin-left: 4vw;
+	font-size: 2.7vw;
+}
+
 .mainContent .section2 {
 	clear: both;
 }
 .section2 .section2Content {
 	padding: 0px;
-	margin-left: 26%;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .mainContent .externalResourcesNav {
+	margin-left: 20%;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	text-align: center;
@@ -644,82 +814,127 @@ header .socialNetworkNavBar .socialNetworkNav {
 .mainContent .externalResourcesNav .externalResources {
 	width: 199px;
 	height: 48px;
+	margin-top: 5%;
 }
 /* Footer */
 footer .footerDisclaimer {
+	/* [disabled]float: left; */
+	margin-left: 0.1%;
 }
 footer .footerNote {
-}
-
-.cDirector {
-	margin-left: 2vw;
-	font-size: 1.3vw;
-	top: -3vh;
-	position: relative;
+	float: right;
+	margin-right: 3%;
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
 	font-size: 2.2vw;
-}
-.cFooter {
-	width: 100%;
-	float: left;
-	clear: both;
-}
-.cHFooter {
 	display: block;
-	width: 100%;
-	height: 2px;
+	margin-top: -2vh;
+}
+.cEanchor {
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+	font-size: 3.05vw;
 }
 .cHEmail {
 	font-weight: bold;
 	font-size: 3.5vw;
 }
-.cEanchor {
-	color: orange;
-	text-decoration: none;
-	font-style: italic;
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 5.4vw;
+}
+.mainContent {
+	display: block;
+	clear: both;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-size: 3.4vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 4.2vw;
+
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 2.5vw;
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 2.6vw;
 }
 }
 
 /* Desktops and laptops  */
 @media only screen and (min-width : 1083px) and (max-width : 1400px) {
-        
+      
 /* ---------CUSTOM FOR WEBSITE----------- */
 body{
 	background-repeat: space;
 	background-position: top;
 }
 header .headerTitle h1 {
+	font-size: 12vw;
 
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
+    
 /* Header */
-header .profileLogo .logoPlaceholder {
-	float: left;
-	margin-bottom: 50px;
+header {
+	width: 100%;
+	float: none;
 }
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
 
+}
+header .profileHeader {
+
+}
 header .socialNetworkNavBar .socialNetworkNav {
 	width: 74px;
 	height: 74px;
 	display: inline;
 }
-/* Main content sections */
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
-	width: 22.5%;
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
 }
 .mainContent .section1 .section1Content {
 	display: block;
+	margin-top: 5%;
+	margin-right: 0%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-top: -4vw;
+	margin-left: 4vw;
+	font-size: 2.7vw;
+}
+
 .mainContent .section2 {
 	clear: both;
 }
 .section2 .section2Content {
 	padding: 0px;
-	margin-left: 26%;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .mainContent .externalResourcesNav {
+	margin-left: 20%;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	text-align: center;
@@ -729,88 +944,126 @@ header .socialNetworkNavBar .socialNetworkNav {
 .mainContent .externalResourcesNav .externalResources {
 	width: 199px;
 	height: 48px;
+	margin-top: 5%;
 }
 /* Footer */
 footer .footerDisclaimer {
+	/* [disabled]float: left; */
+	margin-left: 0.1%;
 }
 footer .footerNote {
-}
-.cHEmail {
-	font-weight: bold;
-	font-size: 2vw;
-}
-
-
-
-.cDirector {
-	margin-left: 2vw;
-	font-size: 1.3vw;
-	top: -3vh;
-	position: relative;
+	float: right;
+	margin-right: 3%;
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
-	font-size: 1.9vw;
-}
-.cFooter {
-	width: 100%;
-	float: left;
-	clear: both;
-}
-.cHFooter {
+	font-size: 2.2vw;
 	display: block;
-	width: 100%;
-	height: 2px;
-}
-.cHEmail {
-	font-weight: bold;
-	font-size: 2.5vw;
+	margin-top: -2vh;
 }
 .cEanchor {
 	color: orange;
 	text-decoration: none;
 	font-style: italic;
+	font-size: 3.05vw;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 3.5vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 5.4vw;
+}
+.mainContent {
+	display: block;
+	clear: both;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-size: 3.4vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 4.2vw;
+
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 2.5vw;
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 2.6vw;
 }
 }
 
 @media only screen and (min-width : 1401px) { 
-
-        
+     
 /* ---------CUSTOM FOR WEBSITE----------- */
 body{
 	background-repeat: space;
 	background-position: top;
 }
 header .headerTitle h1 {
+	font-size: 12vw;
 
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
+    
 /* Header */
-header .profileLogo .logoPlaceholder {
-	float: left;
-	margin-bottom: 50px;
+header {
+	width: 100%;
+	float: none;
 }
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
 
+}
+header .profileHeader {
+
+}
 header .socialNetworkNavBar .socialNetworkNav {
 	width: 74px;
 	height: 74px;
 	display: inline;
 }
-/* Main content sections */
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
-	width: 22.5%;
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
 }
 .mainContent .section1 .section1Content {
 	display: block;
+	margin-top: 5%;
+	margin-right: 0%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
+.section1 .section1Content .cDirector {
+	display: block;
+	margin-top: -4vw;
+	margin-left: 4vw;
+	font-size: 2.7vw;
+}
+
 .mainContent .section2 {
 	clear: both;
 }
 .section2 .section2Content {
 	padding: 0px;
-	margin-left: 26%;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .mainContent .externalResourcesNav {
+	margin-left: 20%;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	text-align: center;
@@ -820,47 +1073,54 @@ header .socialNetworkNavBar .socialNetworkNav {
 .mainContent .externalResourcesNav .externalResources {
 	width: 199px;
 	height: 48px;
+	margin-top: 5%;
 }
 /* Footer */
 footer .footerDisclaimer {
+	/* [disabled]float: left; */
+	margin-left: 0.1%;
 }
 footer .footerNote {
-}
-.cHEmail {
-	font-weight: bold;
-	font-size: 2.1vw;
-}
-
-
-
-.cDirector {
-	margin-left: 2vw;
-	font-size: 1.3vw;
-	top: -3vh;
-	position: relative;
+	float: right;
+	margin-right: 3%;
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
-	font-size: 1.5vw;
-}
-.cFooter {
-	width: 100%;
-	float: left;
-	clear: both;
-}
-.cHFooter {
+	font-size: 2.2vw;
 	display: block;
-	width: 100%;
-	height: 2px;
-}
-.cHEmail {
-	font-weight: bold;
-	font-size: 2.1vw;
+	margin-top: -2vh;
 }
 .cEanchor {
 	color: orange;
 	text-decoration: none;
 	font-style: italic;
+	font-size: 3.05vw;
+}
+.cHEmail {
+	font-weight: bold;
+	font-size: 3.5vw;
+}
+/* ---------CUSTOM FOR WEBSITE----------- */
+
+.profileHeaderTitle {
+	font-size: 5.4vw;
+}
+.mainContent {
+	display: block;
+	clear: both;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-size: 3.4vw;
+}
+.section1 .section1Content .sectionContentTitle {
+	font-size: 4.2vw;
+
+}
+.mainContent .section1 .section1Content .cRole {
+	font-size: 2.5vw;
+}
+.mainContent .section1 .section1Content .sectionContent {
+	font-size: 2.6vw;
 }
 
  }
