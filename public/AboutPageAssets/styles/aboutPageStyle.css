@@ -1,22 +1,6 @@
 @charset "utf-8";
-@import url("../..//stylesheet.css");
-@import url("../..//stylesheet.css");
-@import url("../..//stylesheet.css");
-@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
-@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
-@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
-@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
-@import url("../../webfonts/Chantelli_Antiqua/stylesheet.css");
-@import url("../../webfonts/Deutsch/stylesheet.css");
+
 @import url("../../webfonts/Kingthings_Exeter/stylesheet.css");
-
-
-
-
-
-
-
-
 
 
 /* Global Styles */
@@ -92,7 +76,6 @@ header .profilePhoto img{
 }
 .headerTitle h1 {
 	color: rgba(255,215,0,1);
-	font-size: 10vw;
 	letter-spacing: 7px;
 	font-weight: 700;
 	display: inline;
@@ -140,6 +123,8 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-weight: 900;
 	text-transform: uppercase;
 	font-size: 2.1vw;
+	text-align: right;
+	margin-bottom: 0;
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
 	margin-top: 0;
@@ -270,7 +255,7 @@ body{
     background-position:top;
 }
 header .headerTitle h1 {
-	font-size: 20vw;
+	font-size: 14vw;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
     
@@ -282,7 +267,8 @@ header .profileLogo .logoPlaceholder {
 	display: inline-block;
 }
 header .profilePhoto img{
-	width: 100%;
+	margin: auto;
+	width: 75%;
 
 }
 header .profileHeader p {
@@ -321,8 +307,8 @@ header .socialNetworkNavBar .socialNetworkNav {
 .section1 .section1Content .cDirector {
 	display: block;
 	margin-left: 5vw;
-	margin-top: -2.5vh;
-	font-size: 4.3vw;
+	margin-top: -6.6vw;
+	font-size: 4.2vw;
 }
 
 .mainContent .section2 {
@@ -378,7 +364,7 @@ header .profilePhoto {
 .cSmallPrint {
 	color: rgba(255,215,0,1);
 	display: block;
-	margin-top: -2vh;
+	margin-top: -5vw;
 }
 .cHEmail {
 	font-weight: bold;
@@ -417,16 +403,17 @@ body header {
 	font-weight: 900;
 	text-transform: uppercase;
 	font-size: 6vw;
+	margin-bottom: 0;
 }
 .section1 .section1Content .sectionContentTitle {
 	font-size: 7vw;
 
 }
 .mainContent .section1 .section1Content .sectionContent {
-	font-size: 4.6vw;
+	font-size: 3.5vw;
 }
 .mainContent .section1 .section1Content .cRole {
-	font-size: 5vw;
+	font-size: 3.4vw;
 	margin-left: 10%;
 }
 
@@ -441,7 +428,7 @@ body{
     background-position:top;
 }
 header .headerTitle h1 {
-	font-size: 20vw;
+	font-size: 14vw;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
     
@@ -453,7 +440,8 @@ header .profileLogo .logoPlaceholder {
 	display: inline-block;
 }
 header .profilePhoto img{
-	width: 100%;
+	margin: auto;
+	width: 75%;
 
 }
 header .profileHeader p {
@@ -614,6 +602,7 @@ body{
 	background-position: top;
 }
 header .headerTitle h1 {
+	font-size: 9vw;
 
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -658,9 +647,9 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .section1 .section1Content .cDirector {
 	display: block;
-	margin-top: -4vw;
+	margin-top: -3vw;
 	margin-left: 4vw;
-	font-size: 2.7vw;
+	font-size: 2vw;
 }
 
 .mainContent .section2 {
@@ -696,41 +685,41 @@ footer .footerNote {
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
-	font-size: 2.2vw;
+	font-size: 1.7vw;
 	display: block;
-	margin-top: -2vh;
+	margin-top: -1.4vh;
 }
 .cEanchor {
 	color: orange;
 	text-decoration: none;
 	font-style: italic;
-	font-size: 3.05vw;
 }
 .cHEmail {
 	font-weight: bold;
-	font-size: 3.5vw;
+	font-size: 2.4vw;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 .profileHeaderTitle {
-	font-size: 5.4vw;
+	font-size: 3.6vw;
 }
 .mainContent {
 	display: block;
-	clear: both;
+	margin: auto;
+	width: 90%;
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
-	font-size: 3.4vw;
+	font-size: 2.6vw;
 }
 .section1 .section1Content .sectionContentTitle {
-	font-size: 4.2vw;
+	font-size: 3.3vw;
 
 }
 .mainContent .section1 .section1Content .cRole {
-	font-size: 2.5vw;
+	font-size: 2vw;
 }
 .mainContent .section1 .section1Content .sectionContent {
-	font-size: 2.6vw;
+	font-size: 2.1vw;
 }
 
 }
@@ -744,7 +733,7 @@ body{
 	background-position: top;
 }
 header .headerTitle h1 {
-	font-size: 12vw;
+	font-size: 9vw;
 
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -789,9 +778,9 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .section1 .section1Content .cDirector {
 	display: block;
-	margin-top: -4vw;
+	margin-top: -2.9vw;
 	margin-left: 4vw;
-	font-size: 2.7vw;
+	font-size: 1.8vw;
 }
 
 .mainContent .section2 {
@@ -827,41 +816,41 @@ footer .footerNote {
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
-	font-size: 2.2vw;
+	font-size: 1.58vw;
 	display: block;
-	margin-top: -2vh;
+	margin-top: -1.6vh;
 }
 .cEanchor {
 	color: orange;
 	text-decoration: none;
 	font-style: italic;
-	font-size: 3.05vw;
 }
 .cHEmail {
 	font-weight: bold;
-	font-size: 3.5vw;
+	font-size: 2vw;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 .profileHeaderTitle {
-	font-size: 5.4vw;
+	font-size: 3.3vw;
 }
 .mainContent {
 	display: block;
-	clear: both;
+	margin: auto;
+	width: 85%;
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
-	font-size: 3.4vw;
+	font-size: 2.3vw;
 }
 .section1 .section1Content .sectionContentTitle {
-	font-size: 4.2vw;
+	font-size: 3.15vw;
 
 }
 .mainContent .section1 .section1Content .cRole {
-	font-size: 2.5vw;
+	font-size: 1.8vw;
 }
 .mainContent .section1 .section1Content .sectionContent {
-	font-size: 2.6vw;
+	font-size: 2vw;
 }
 }
 
@@ -874,7 +863,7 @@ body{
 	background-position: top;
 }
 header .headerTitle h1 {
-	font-size: 12vw;
+	font-size: 9vw;
 
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -919,9 +908,9 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .section1 .section1Content .cDirector {
 	display: block;
-	margin-top: -4vw;
+	margin-top: -2.5vw;
 	margin-left: 4vw;
-	font-size: 2.7vw;
+	font-size: 1.35vw;
 }
 
 .mainContent .section2 {
@@ -957,41 +946,42 @@ footer .footerNote {
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
-	font-size: 2.2vw;
+	font-size: 1.38vw;
 	display: block;
-	margin-top: -2vh;
+	margin-top: -1.5vh;
 }
 .cEanchor {
 	color: orange;
 	text-decoration: none;
 	font-style: italic;
-	font-size: 3.05vw;
 }
 .cHEmail {
 	font-weight: bold;
-	font-size: 3.5vw;
+	font-size: 1.8vw;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 .profileHeaderTitle {
-	font-size: 5.4vw;
+	font-size: 3.1vw;
 }
 .mainContent {
 	display: block;
 	clear: both;
+	margin: auto;
+	width: 80%;
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
-	font-size: 3.4vw;
+	font-size: 2.1vw;
 }
 .section1 .section1Content .sectionContentTitle {
-	font-size: 4.2vw;
+	font-size: 2.75vw;
 
 }
 .mainContent .section1 .section1Content .cRole {
-	font-size: 2.5vw;
+	font-size: 1.5vw;
 }
 .mainContent .section1 .section1Content .sectionContent {
-	font-size: 2.6vw;
+	font-size: 1.7vw;
 }
 }
 
@@ -1003,7 +993,7 @@ body{
 	background-position: top;
 }
 header .headerTitle h1 {
-	font-size: 12vw;
+	font-size: 9vw;
 
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
@@ -1048,9 +1038,9 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .section1 .section1Content .cDirector {
 	display: block;
-	margin-top: -4vw;
+	margin-top: -2vw;
 	margin-left: 4vw;
-	font-size: 2.7vw;
+	font-size: 1.1vw;
 }
 
 .mainContent .section2 {
@@ -1086,7 +1076,7 @@ footer .footerNote {
 }
 .cSmallPrint {
 	color: rgba(255,215,0,1);
-	font-size: 2.2vw;
+	font-size: 1.3vw;
 	display: block;
 	margin-top: -2vh;
 }
@@ -1094,33 +1084,34 @@ footer .footerNote {
 	color: orange;
 	text-decoration: none;
 	font-style: italic;
-	font-size: 3.05vw;
 }
 .cHEmail {
 	font-weight: bold;
-	font-size: 3.5vw;
+	font-size: 1.6vw;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 .profileHeaderTitle {
-	font-size: 5.4vw;
+	font-size: 2.9vw;
 }
 .mainContent {
 	display: block;
 	clear: both;
+	margin: auto;
+	width: 80%;
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
-	font-size: 3.4vw;
+	font-size: 2vw;
 }
 .section1 .section1Content .sectionContentTitle {
-	font-size: 4.2vw;
+	font-size: 2.7vw;
 
 }
 .mainContent .section1 .section1Content .cRole {
-	font-size: 2.5vw;
+	font-size: 1.3vw;
 }
 .mainContent .section1 .section1Content .sectionContent {
-	font-size: 2.6vw;
+	font-size: 1.4vw;
 }
 
  }
