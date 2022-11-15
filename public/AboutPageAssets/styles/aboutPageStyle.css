@@ -334,7 +334,6 @@ footer {
 }
 
 header .profilePhoto {
-	background-color: black; /*rgba(237,237,237,1.00);*/
 	/* [disabled]width: 259px; */
 	width: 100%;
 	display: block;
@@ -507,7 +506,6 @@ footer {
 }
 
 header .profilePhoto {
-	background-color: black; /*rgba(237,237,237,1.00);*/
 	/* [disabled]width: 259px; */
 	width: 100%;
 	display: block;
