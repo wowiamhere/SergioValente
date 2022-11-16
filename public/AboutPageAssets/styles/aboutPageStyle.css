@@ -99,6 +99,15 @@ hr {
 	line-height: 1.8;
 	overflow-y: auto;
 }
+.cEanchor{
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+}
+.headerContactInfo .cHEmail .cEanchor:hover {
+	text-decoration: underline;
+}
+
 /*----------------------CUSTOM FOR WEBSITE -------------------------*/
 
 header .socialNetworkNavBar {
@@ -151,6 +160,15 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-size: 2.1vw;
 
 }
+.section1Content .sectionContentTitle .cResumeTitle {
+	text-decoration: none;
+	color: orange;
+}
+.section1Content .sectionContentTitle .cResumeTitle:hover {
+	text-decoration: underline;
+}
+
+
 .mainContent .section1 .section1Content .sectionContent{
 	margin-left: 10%;
 	font-size: 1.5vw;
@@ -215,9 +233,19 @@ footer .footerDisclaimer {
 	text-align: left;
 	width: 90px;
 	float: left;
+	color-profile: rgba(181,178,178,1.00);
 }
-footer .footerDisclaimer span {
+.cFooter .footerDisclaimer .cFooterSagLink {
+	text-decoration: none;
 	color: rgba(181,178,178,1.00);
+}
+.cFooter .footerDisclaimer .cFooterSagLink:hover {
+	color: rgba(255,215,0,1);
+}
+
+
+footer .footerDisclaimer span {
+	/* [disabled]color: rgba(181,178,178,1.00); */
 	font-weight: 400;
 }
 footer .footerNote {
@@ -245,6 +273,15 @@ body header {
 
 
 }
+.profileHeader .cSmallPrint .cSagIactor {
+	text-decoration: none;
+	color: rgba(255,215,0,1);
+}
+.profileHeader .cSmallPrint .cSagIactor:hover {
+	color: orange;
+}
+
+
 
 /* Media query for Mobile devices*/
 @media only screen and (min-width : 285px) and (max-width : 480px) {
@@ -368,11 +405,6 @@ header .profilePhoto {
 .cHEmail {
 	font-weight: bold;
 	font-size: 4.99vw;
-}
-.cEanchor {
-	color: orange;
-	text-decoration: none;
-	font-style: italic;
 }
 /* ---------CUSTOM FOR WEBSITE----------- */
 
@@ -542,11 +574,6 @@ header .profilePhoto {
 	font-weight: bold;
 	font-size: 4.99vw;
 }
-.cEanchor {
-	color: orange;
-	text-decoration: none;
-	font-style: italic;
-}
 /* ---------CUSTOM FOR WEBSITE----------- */
 
 /*-------added .headerTitle class to DOM -------*/
@@ -687,11 +714,6 @@ footer .footerNote {
 	display: block;
 	margin-top: -1.4vh;
 }
-.cEanchor {
-	color: orange;
-	text-decoration: none;
-	font-style: italic;
-}
 .cHEmail {
 	font-weight: bold;
 	font-size: 2.4vw;
@@ -818,11 +840,6 @@ footer .footerNote {
 	display: block;
 	margin-top: -1.6vh;
 }
-.cEanchor {
-	color: orange;
-	text-decoration: none;
-	font-style: italic;
-}
 .cHEmail {
 	font-weight: bold;
 	font-size: 2vw;
@@ -948,11 +965,6 @@ footer .footerNote {
 	display: block;
 	margin-top: -1.5vh;
 }
-.cEanchor {
-	color: orange;
-	text-decoration: none;
-	font-style: italic;
-}
 .cHEmail {
 	font-weight: bold;
 	font-size: 1.8vw;
@@ -1077,11 +1089,6 @@ footer .footerNote {
 	font-size: 1.3vw;
 	display: block;
 	margin-top: -2vh;
-}
-.cEanchor {
-	color: orange;
-	text-decoration: none;
-	font-style: italic;
 }
 .cHEmail {
 	font-weight: bold;
