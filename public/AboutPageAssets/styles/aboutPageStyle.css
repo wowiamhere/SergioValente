@@ -267,6 +267,99 @@ body header {
 
 
 }
+.cVoReelPicsHeader {
+	width: 55vw;
+	float: right;
+	height: 3vw;
+}
+.cVoReelPicsHeader .cVOSec {
+	font-family: "Kingthings Exeter";
+	background-color: black;
+	color: orange;
+
+}
+
+.cVoReelPicsHeader #iSectionVO {
+
+}
+
+.cVoReelPicsHeader #iSectionReel {
+
+}
+
+.cVoReelPicsHeader #iSectionReel .cReel {
+	width: 40vw;
+
+}
+
+.cVoReelPicsHeader .cVOAudio {
+	display: inline-block;
+}
+
+.cVoReelPicsHeader .cReelVidSec {
+	display: inline-block;
+	font-family: Kingthings Exeter;
+	color: orange;
+	background-color: black;
+}
+
+.cVoReelPicsHeader .cPicsHeader {
+	width: 10vw;
+	display: inline-block;
+}
+
+.cVoReelPicsHeader .cReelHeader {
+	width: 10vw;
+	display: inline-block;
+}
+.cVoReelPicsHeader .cReelHeader #iSectionReel {
+	height: 2vw;
+	display: none;
+	position: relative;
+
+}
+.cReelHeader #iSectionReel .cReel {
+	display: block;
+	position: relative;
+	width: 40vw;
+
+}
+
+
+.cVoReelPicsHeader .cReelHeader .cReelVidSec {
+
+
+}
+.cReelHeader .cReelVidSec .cReel {
+	width: 40vw;
+	height: 20vw;
+	display: block;
+}
+
+
+.cVoReelPicsHeader .cReelHeader label {
+}
+
+
+.cVoReelPicsHeader .cVoHeader {
+	width: 10vw;
+	display: inline-block;
+}
+.cVoReelPicsHeader .cVoHeader .cVOWrap {
+	width: 2.7vw;
+	overflow: hidden;
+	border-radius: 20px;
+	border: 1px solid gold;
+	display: block;
+}
+.cVoHeader .cVOWrap .cVOAudio {
+	height: 4vh;
+	display: block;
+}
+
+
+
+
 .headerContactInfo {
 	float: right;
 	width: 55vw;
@@ -447,6 +540,12 @@ body header {
 	font-size: 3.4vw;
 	margin-left: 10%;
 }
+.cVoReelPicsHeader {
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
 
 }
 
@@ -614,6 +713,12 @@ body header {
 	font-size: 3.05vw;
 	margin-left: 10%;
 }
+.cVoReelPicsHeader {
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
 
 }
 
@@ -867,6 +972,24 @@ footer .footerNote {
 .mainContent .section1 .section1Content .sectionContent {
 	font-size: 2vw;
 }
+.cVoReelPicsHeader .cReelVidSec {
+	height: 2.8vw;
+	top: -1vw;
+	position: relative;
+
+}
+.cVoReelPicsHeader #iSectionReel .cReel {
+
+
+}
+.cVoReelPicsHeader .cVOAudio {
+	height: 3vw;
+	width: 21vw;
+
+}
+
+
+
 }
 
 /* Desktops and laptops  */
